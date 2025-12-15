@@ -177,7 +177,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <!-- License + Copyright -->
 <p  align="center">
-  <i>© <a href="https://github.com/mwakidenis">Mwaki Denis</a> 2025</i><br>
+  <i>© <a href="https://github.com/mwakidenis">Mwaki Denis</a> 2026</i><br>
   <i>Licensed under <a href="https://gist.github.com/mwakidenis/143d2ee01ccc5c052a17">MIT</a></i><br>
   <a href="https://github.com/mwakidenis"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
