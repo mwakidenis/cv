@@ -111,10 +111,10 @@ The source for the website version is located in [`web/`](/web)
 ## Screenshot
 
 <h3 align="center">Web 🌐</h3>
-<p align="center"><a href="[https://github.com/mwakidenis/cv/blob/main/cv-main/.github/screenshots/screenshot-web.png]" /></a></p>
+<p align="center"><a href="(https://github.com/mwakidenis/cv/blob/main/cv-main/.github/screenshots/screenshot-web.png)" /></a></p>
 
 <h3 align="center">PDF 📄</h3>
-<p align="center"><a href="[https://github.com/mwakidenis/cv/blob/main/cv-main/.github/screenshots/screenshot-web.jpg?]" /></a></p>
+<p align="center"><a href="(https://github.com/mwakidenis/cv/blob/main/cv-main/.github/screenshots/screenshot-web.jpg?)" /></a></p>
 
 ---
 
