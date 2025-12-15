@@ -44,7 +44,7 @@ resume.tex
 ===============================================================================
                                License Information
 ===============================================================================
-Licensed under the MIT License. ⓒ Alicia Sykes <aliciasykes.com> 2024
+Licensed under the MIT License. ⓒ Mwaki Denis <mwakidenice@gmail.com> 2024
 
 Dependencies and their Licenses:
 - FontAwesome: SIL Open Font License 1.1 (https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web)
