@@ -145,7 +145,7 @@ No point in raising issues here. It works on my machine. Therefore I see no issu
 
 ## License
 
-> _**[mwakidenis/CV](https://github.com/mwakidenis/cv)** is licensed under [MIT](https://github.com/mwakidenis/cv/blob/HEAD/LICENSE) © [Alicia Sykes](https://mwakidenis.com) 2025._<br>
+> _**[mwakidenis/CV](https://github.com/mwakidenis/cv)** is licensed under [MIT](https://github.com/mwakidenis/cv/blob/HEAD/LICENSE) © [Mwaki Denis](https://mwakidenis.com) 2026._<br>
 > <sup align="right">For information, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal > MIT</a></sup>
 
 <details>
