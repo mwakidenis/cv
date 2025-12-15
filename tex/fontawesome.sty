@@ -1,0 +1,33 @@
+%% Minimal FontAwesome Package - Optimized for CV template
+%% Based on github.com/JanHendrikDolling/latex-fontawesome5 by Jan-Hendrik Dolling
+%% Contains only icons used in the CV template for faster compilation
+
+% Identify this package.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fontawesome}[2025/01/01 v4.4.0 minimal font awesome icons for CV]
+
+% Requirements to use.
+\usepackage{fontspec}
+
+% Define shortcut to load the Font Awesome font.
+\newfontfamily{\FA}[
+Path=fonts/
+]{FontAwesome}
+
+% Generic command displaying an icon by its name.
+\newcommand*{\faicon}[1]{{
+  \FA\csname faicon@#1\endcsname
+}}
+
+% Only icons used in the CV template
+\expandafter\def\csname faicon@envelope\endcsname {\symbol{"F0E0}} \def\faEnvelope {{\FA\csname faicon@envelope\endcsname}}
+\expandafter\def\csname faicon@github\endcsname {\symbol{"F09B}} \def\faGithub {{\FA\csname faicon@github\endcsname}}
+\expandafter\def\csname faicon@github-square\endcsname {\symbol{"F092}} \def\faGithubSquare {{\FA\csname faicon@github-square\endcsname}}
+\expandafter\def\csname faicon@link\endcsname {\symbol{"F0C1}} \def\faLink {{\FA\csname faicon@link\endcsname}}
+\expandafter\def\csname faicon@linkedin-square\endcsname {\symbol{"F08C}} \def\faLinkedinSquare {{\FA\csname faicon@linkedin-square\endcsname}}
+\expandafter\def\csname faicon@map-marker\endcsname {\symbol{"F041}} \def\faMapMarker {{\FA\csname faicon@map-marker\endcsname}}
+\expandafter\def\csname faicon@mobile\endcsname {\symbol{"F10B}} \def\faMobile {{\FA\csname faicon@mobile\endcsname}}
+\expandafter\def\csname faicon@skype\endcsname {\symbol{"F17E}} \def\faSkype {{\FA\csname faicon@skype\endcsname}}
+\expandafter\def\csname faicon@stack-overflow\endcsname {\symbol{"F16C}} \def\faStackOverflow {{\FA\csname faicon@stack-overflow\endcsname}}
+\expandafter\def\csname faicon@star\endcsname {\symbol{"F005}} \def\faStar {{\FA\csname faicon@star\endcsname}}
+\expandafter\def\csname faicon@twitter\endcsname {\symbol{"F099}} \def\faTwitter {{\FA\csname faicon@twitter\endcsname}}

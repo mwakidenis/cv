@@ -1,0 +1,257 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Mwaki Denis CV - Generated from YAML data
+% Source: https://github.com/mwakidenis/cv
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{resume-format}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+\begin{document}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength\fboxsep{10pt}%
+
+\begingroup
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=white,
+    urlcolor=white,
+    citecolor=white,
+    pdfborder={0 0 0},
+    pdftitle   = {CV: Mwaki Denis},
+    pdfauthor  = {Mwaki Denis},
+    pdfsubject = {Curriculum Vitae},
+    pdfkeywords= {principal engineer, software engineering, CV, resume, Mwaki Denis},
+    pdfcreator = {LaTeX with XeTeX},
+    pdfproducer = {XeTeX},
+    pdflang = {en-GB},
+    pdfcreationdate = {D:20120901162042+01'00'},
+    pdfmoddate = {D:20250827001351+00'00'},
+    pdfdisplaydoctitle = true
+  }%
+
+\noindent
+\roundedheaderbox{headerbg}{
+  \color{white} %
+  \begin{center} %
+    \headerfirstnamestyle{ Denis } %
+    \headerlastnamestyle{  Mwaki }\\[2mm] %
+    \faEnvelope~\href{mailto:mwakidenice@gmail.com}mwakidenice@gmail.com %
+    \quad|\quad %
+    \faMapMarker~Nairobi, KE %
+    \quad|\quad %
+    \faLink~\href{ https://github.com/mwakidenis }{ https://github.com/mwakidenis } %
+  \end{center} %
+}
+\endgroup
+\vspace{0mm} %
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{cvpersonalstatement}
+  \item { I help organisations turn complex technical challenges into simple,
+scalable solutions that make a real difference for users and teams.
+I\textquotesingle{}ve led multi-team organisations, modernised large-scale systems,
+and built high-performance cultures grounded in openness, inclusion,
+and technical excellence.
+I\textquotesingle{}m passionate about open source, user privacy, and leaving a lasting
+impact at both company and community level.
+ }
+\end{cvpersonalstatement}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Experience}
+\begin{cventries}
+    \cventry
+    { Staff Software Engineer }
+    { Villa Surgical & Equipment Ltd }
+    {}
+    { November 2024 – Present }
+    {\begin{cvitems}
+        \item { Spearheaded accessibility strategy ahead of European Accessibility Act, building site-wide scanning and reporting platform, and then coordinating remediation across 6 teams. }
+        \item { Strengthened infrastructure and reliability through Kubernetes/Terraform and vendor collaboration (Fastly, DataDome). }
+        \item { Served as learning champion, establishing resources, learning pathways and fostering continuous upskilling and mentorship across the engineering department. }
+    \end{cvitems}}
+    \cventry
+    { Principal Engineer }
+    { AND Digital }
+    {}
+    { August 2022 – October 2024 }
+    {\begin{cvitems}
+        \item { Led architecture and development for a high-scale white-labelled mobile app for Frasers Group, achieving 1M+ downloads and a 4.8/5 rating on app stores (React Native). }
+        \item { Delivered strategic technical leadership across multiple client projects including Lloyds Bank and International SOS, driving large-scale migrations to modern, maintainable stacks. }
+        \item { Mentored and upskilled a team of 8–12 engineers through structured mini-projects, paired programming, and technical coaching, fostering a high-growth culture. }
+        \item { Established and hosted a bi-weekly engineering guild attended by 40+ engineers, sharing best practices in performance, accessibility, testing, and architecture. }
+        \item { Acted as a bridge between delivery and engineering excellence, ensuring long-term code quality and platform resilience without compromising speed. }
+    \end{cvitems}}
+    \cventry
+    { VP of Frontend Engineering }
+    { Galaxy }
+    {}
+    { June 2020 – May 2022 }
+    {\begin{cvitems}
+        \item { Directed frontend engineering for Galaxy\textquotesingle{}s flagship OTC trading platform, enabling over \$1B in trading volume with enterprise-grade performance and reliability. }
+        \item { Architected and led a full-stack modernization of legacy codebases, improving app load times by 50\% and significantly reducing tech debt. }
+        \item { Oversaw and scaled frontend engineering strategy, standards, and execution across multiple teams, including hiring, mentoring, and tech governance. }
+        \item { Shipped high-quality features rapidly through close cross-functional collaboration. Increasing team velocity by 30\% through improved CI/CD processes and tooling. }
+        \item { Advocated for open standards, accessibility, and performance as core pillars of engineering success. }
+    \end{cvitems}}
+    \cventry
+    { Contract Software Engineer Lead }
+    { Freelance }
+    {}
+    { January 2018 – June 2020 }
+    {\begin{cvitems}
+        \item { Acted as engineering lead on high-impact React Native projects including Shell Recharge, driving delivery from design to deployment across platforms. }
+        \item { Built a performant, scalable component library from scratch for a UK fintech startup, establishing strong frontend architecture and design consistency. }
+        \item { Delivered a full-stack IoT dashboard for Machine Max, visualizing real-time CO2 and idling metrics from edge devices (Raspberry Pi + cloud stack). }
+        \item { Consistently embedded in client teams as a trusted lead, providing architecture reviews, CI/CD pipeline improvements, and technical mentorship. }
+    \end{cvitems}}
+    \cventry
+    { Developer }
+    { Accenture }
+    {}
+    { May 2014 – January 2019 }
+    {\begin{cvitems}
+        \item { Took lead on the 3D/AR work for the B\&Q bathroom planner (Angular, A-Frame) }
+        \item { Lead a team of apprentices on the Accenture UKI Innovation Programme (Google Glass, React, D3.js) }
+        \item { Ran sessions on coding best practices, testing and observability for engineers across the business }
+        \item { Headed up the pair programming initiative within Accenture Digital and their clients }
+        \item { Also supported with the roll-out of Universal Credit (Java), Boots NHS Prescriptions integration (Node.js), E.ON Next Smart Meter portal (React) and the Post Office Kiosk Terminal }
+    \end{cvitems}}
+\end{cventries}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Education}
+\begin{cventries}
+    \cventry
+    { BSc in Computer Science }
+    { Meru University of Science & Technology }
+    {}
+    {}
+    {Grade: 2nd Class Honors(Upper Division). Winner of Best Final Year Project Prize. President of Computing Society.}
+\end{cventries}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Skills}
+\vspace{0.5mm}  % match Stats/Awards
+\begin{cvskills}
+  \cvskill{ Frontend }{ React, Svelte, TypeScript }
+  \cvskill{ Backend }{ Go, Rust, Node.js, Python, Java, PHP }
+  \cvskill{ Mobile }{ Kotlin, Swift, React Native, Flutter }
+  \cvskill{ DevOps }{ Ansible, Kubernetes, Terraform }
+  \cvskill{ Obs/Mon }{ Prometheus, ELK stack, OpenTelemetry, Grafana }
+  \cvskill{ CI/CD }{ Argo CD, GitHub Actions }
+  \cvskill{ Cloud }{ Vercel, Netlify, GCP, Azure }
+  \cvskill{ Databases }{ PostgreSQL, SQLite, Redis, MySQL, MongoDB }
+\end{cvskills}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Achievements Statistics
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Stats}
+\vspace{0.5mm}
+\begin{cvachievements}
+\setlength{\itemsep}{0mm}
+  \item { Top female developer on GitHub worldwide (out of 100m users) \href{ https://gitstar-ranking.com/mwakidenis }{\scriptsize\color{lightgray}\faLink} }
+  \item { 10M+ Docker downloads across my open-source projects \href{ https://hub.docker.com/u/lissy93 }{\scriptsize\color{lightgray}\faLink} }
+  \item { 10+ global hackathon wins, demonstrating rapid innovation \href{ https://notes.mwakidenis.com/p/0s5s3uOtKj }{\scriptsize\color{lightgray}\faLink} }
+  \item { 1M+ lines of code authored, maintainer of 100+ repos, powering 1M+ annual unique users \href{ https://codestats.net/users/denis }{\scriptsize\color{lightgray}\faLink} }
+  \item { 10k+ subscribers on DEV.to blog demonstrating community impact and reach \href{ https://dev.to/mwakidenis }{\scriptsize\color{lightgray}\faLink} }
+  \item { Top 1\% contributor on StackOverflow \href{ https://stackoverflow.com/users/979052/mwakidenis }{\scriptsize\color{lightgray}\faLink} }
+\end{cvachievements}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Awards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Awards}
+\vspace{0.5mm}
+\begin{cvachievements}
+\setlength{\itemsep}{0mm}
+  \item { \textbf{ Open UK Honours List (2025) } - Recognised for outstanding contributions to the tech and open-source sector \href{ https://openke.ke/honours/ }{\scriptsize\color{lightgray}\faLink} }
+  \item { \textbf{ GitHub Accelerator Alumni } - Selected among 10 developers (Microsoft M12 partnership) to launch AI-security tooling \href{ https://accelerator.github.com/ }{\scriptsize\color{lightgray}\faLink} }
+  \item { \textbf{ Open KE Honours List (2024) } - Honoured for leadership and impact in open-source communities \href{ https://openuk.uk/community/openuk-honours-lists/2024-honours-list }{\scriptsize\color{lightgray}\faLink} }
+  \item { \textbf{ Best Comp Sci Project } - Awarded by Oxford British Computer Society \href{ https://must.bcs.org/2024/06/27/annual-student-prizes-2024/ }{\scriptsize\color{lightgray}\faLink} }
+\end{cvachievements}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Projects}
+\vspace{0.5mm}
+\begin{cvachievements}
+  \setlength{\itemsep}{0mm}
+  \item {\hspace{-5pt}
+    \textbf{ Web-Check } (25k \raisebox{0.5pt}{\scriptsize\faStar}) \href{ https://web-check.xyz }{\scriptsize\color{lightgray}\faLink} \hfill \href{https://github.com/mwakidenis/web-check}{\hspace{1pt}\faGithub\ lissy93/web-check}\\
+    OSINT website scanner, with 100k MAU, widely used by security researchers and enterprises
+  }
+  
+   
+\end{cvachievements}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Footer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{5mm}
+\begin{center}
+    \tiny\color{lightgray}
+    Resume built with LaTeX, view source at
+    \href{https://github.com/mwakidenis/cv}{ github.com/mwakidenis/cv }.
+    Licensed under MIT (C)
+    \href{https://github.com/mwakidenis}{ Mwaki Denis } {\the\year}
+\end{center}
+\ 
+\end{document}

@@ -1,0 +1,186 @@
+basics:
+  name: Denis Mwaki
+  email: mwakidenice2gmail.com
+  url: https://github.com/mwakidenis
+  location:
+    address: Nairobi, KE
+personal-statement: |
+  I help organisations turn complex technical challenges into simple,
+  scalable solutions that make a real difference for users and teams.
+  I've led multi-team organisations, modernised large-scale systems,
+  and built high-performance cultures grounded in openness, inclusion,
+  and technical excellence.
+  I'm passionate about open source, user privacy, and leaving a lasting
+  impact at both company and community level.
+extra-links:
+  work_history:
+    text: See all previous roles at linkedin.com/in/denis-it-54199939a
+    link: https://linkedin.com/in/denis-it-54199939a
+  projects:
+    text: See example projects built with each technology at https://github.com/mwakidenis/
+    link: https://github.com/mwakidenis/
+education:
+- institution: Meru University OF Science and Teechnology
+  area: Computer Science
+  studyType: BSc
+  startDate: ''
+  endDate: ''
+  score: 2nd Class Honors(Upper Division). Winner of Best Final Year Project Prize. President of Computing Society.
+work:Staff Software Engineer / AI Systems Engineer
+2023 – Present
+
+Led development of large-scale AI assistance systems, improving reasoning quality, response reliability, and safety across millions of daily user interactions.
+
+Designed and optimized distributed inference and evaluation pipelines, increasing system efficiency and reducing latency at global scale.
+
+Collaborated closely with research, safety, and product teams to translate cutting-edge models into robust, production-ready systems.
+
+Acted as a technical mentor and knowledge steward, contributing to internal tooling, documentation, and best practices that accelerated onboarding and raised engineering standards across teams.
+
+- name: AND Digital
+  position: Principal Engineer
+  startDate: 2022-08
+  endDate: 2024-10
+  highlights:
+  - Led architecture and development for a high-scale white-labelled mobile app for Frasers Group, achieving 1M+ downloads and a 4.8/5 rating on app stores (React Native).
+  - Delivered strategic technical leadership across multiple client projects including Lloyds Bank and International SOS, driving large-scale migrations to modern, maintainable stacks.
+  - Mentored and upskilled a team of 8–12 engineers through structured mini-projects, paired programming, and technical coaching, fostering a high-growth culture.
+  - Established and hosted a bi-weekly engineering guild attended by 40+ engineers, sharing best practices in performance, accessibility, testing, and architecture.
+  - Acted as a bridge between delivery and engineering excellence, ensuring long-term code quality and platform resilience without compromising speed.
+
+- name: Galaxy
+  position: VP of Frontend Engineering
+  startDate: 2020-06
+  endDate: 2022-05
+  highlights:
+  - Directed frontend engineering for Galaxy's flagship OTC trading platform,
+    enabling over $1B in trading volume with enterprise-grade performance and reliability.
+  - Architected and led a full-stack modernization of legacy codebases,
+    improving app load times by 50% and significantly reducing tech debt.
+  - Oversaw and scaled frontend engineering strategy, standards, and execution
+    across multiple teams, including hiring, mentoring, and tech governance.
+  - Shipped high-quality features rapidly through close cross-functional collaboration.
+    Increasing team velocity by 30% through improved CI/CD processes and tooling.
+  - Advocated for open standards, accessibility, and performance as core pillars
+    of engineering success.
+
+- name: Freelance
+  position: Contract Software Engineer Lead
+  startDate: 2018-01
+  endDate: 2020-06
+  highlights:
+  - Acted as engineering lead on high-impact React Native projects including
+    Shell Recharge, driving delivery from design to deployment across platforms.
+  - Built a performant, scalable component library from scratch for a UK fintech
+    startup, establishing strong frontend architecture and design consistency.
+  - Delivered a full-stack IoT dashboard for Machine Max, visualizing real-time
+    CO2 and idling metrics from edge devices (Raspberry Pi + cloud stack).
+  - Consistently embedded in client teams as a trusted lead, providing
+    architecture reviews, CI/CD pipeline improvements, and technical mentorship.
+
+- name: Accenture
+  position: Developer
+  startDate: 2014-05
+  endDate: 2019-01
+  highlights:
+  - Took lead on the 3D/AR work for the B&Q bathroom planner (Angular, A-Frame)
+  - Lead a team of apprentices on the Accenture UKI Innovation Programme (Google Glass,
+    React, D3.js)
+  - Ran sessions on coding best practices, testing and observability for engineers
+    across the business
+  - Headed up the pair programming initiative within Accenture Digital and their clients
+  - Also supported with the roll-out of Universal Credit (Java), Boots NHS Prescriptions
+    integration (Node.js), E.ON Next Smart Meter portal (React) and the Post Office
+    Kiosk Terminal
+skills:
+- name: Frontend
+  keywords:
+  - React
+  - Svelte
+  - TypeScript
+- name: Backend
+  keywords:
+  - Go
+  - Rust
+  - Node.js
+  - Python
+  - Java
+  - PHP
+- name: Mobile
+  keywords:
+  - Kotlin
+  - Swift
+  - React Native
+  - Flutter
+- name: DevOps
+  keywords:
+  - Ansible
+  - Kubernetes
+  - Terraform
+- name: Obs/Mon
+  keywords:
+  - Prometheus
+  - ELK stack
+  - OpenTelemetry
+  - Grafana
+- name: CI/CD
+  keywords:
+  - Argo CD
+  - GitHub Actions
+- name: Cloud
+  keywords:
+  - Vercel
+  - Netlify
+  - GCP
+  - Azure
+- name: Databases
+  keywords:
+  - PostgreSQL
+  - SQLite
+  - Redis
+  - MySQL
+  - MongoDB
+
+achievements:
+  - text: Top 10 Kenyan developer on GitHub in 2025 (out of 6000 users)
+    source: 'https://gitstar-ranking.com/mwakidenis'
+  - text: 10M+ Docker downloads across my open-source projects
+    source: 'https://hub.docker.com/u/mwakidenis'
+  - text: 10+ global hackathon wins, demonstrating rapid innovation
+    source: 'https://notes.mwakidenis.com/p/0s5s3uOtKj'
+  - text: 1M+ lines of code authored, maintainer of 100+ repos, powering 1M+ annual unique users
+    source: 'https://codestats.net/users/mwakidenis'
+  - text: 10k+ subscribers on DEV.to blog demonstrating community impact and reach
+    source: 'https://dev.to/mwakidenis'
+  - text: Top 1% contributor on StackOverflow
+    source: 'https://stackoverflow.com/users/979052/mwakidenis'
+
+awards:
+- title: Open Kenyan Honours List (2025)
+  summary: Recognised for outstanding contributions to the tech and open-source sector
+  source: 'https://openke.ke/honours/'
+- title: GitHub Accelerator Alumni
+  summary: Selected among 10 developers (Microsoft M12 partnership) to launch AI-security tooling
+  source: 'https://accelerator.github.com/'
+- title: Open Kenya Honours List (2024)
+  summary: Honoured for leadership and impact in open-source communities
+  source: 'https://openke.ke/community/openuk-honours-lists/2024-honours-list'
+- title: Best Comp Sci Project
+  summary: Awarded by Meru University Web Community
+  source: 'https:/github.com/mwakidenis/'
+
+projects:
+- name: 'Dashy'
+  description: 'Self-hosted dashboard deployed on 500k+ servers worldwide, driving adoption in enterprise and open-source communities'
+  github: 'mwakidenis/dashy'
+  url: 'https://dashy.to'
+  language: 'Vue'
+  stars: '20k'
+- name: 'Web-Check'
+  description: 'OSINT website scanner, with 100k MAU, widely used by security researchers and enterprises'
+  github: 'mwakidenis/web-check'
+  url: 'https://web-check.xyz'
+  language: 'React'
+  stars: '25k'
+-
+

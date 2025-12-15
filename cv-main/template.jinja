@@ -1,0 +1,199 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% {{ basics.name | latex_escape }} CV - Generated from YAML data
+% Source: https://github.com/Lissy93/cv
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{resume-format}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+\begin{document}
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength\fboxsep{10pt}%
+
+\begingroup
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=white,
+    urlcolor=white,
+    citecolor=white,
+    pdfborder={0 0 0},
+    pdftitle   = {CV: {{ basics.name | latex_escape }}},
+    pdfauthor  = {{ "{" }}{{ basics.name | latex_escape }}{{ "}" }},
+    pdfsubject = {Curriculum Vitae},
+    pdfkeywords= {principal engineer, software engineering, CV, resume, {{ basics.name | latex_escape }}},
+    pdfcreator = {LaTeX with XeTeX},
+    pdfproducer = {XeTeX},
+    pdflang = {en-GB},
+    pdfcreationdate = {D:20120901162042+01'00'},
+    pdfmoddate = {{ "{" }}{{ compilation_timestamp }}{{ "}" }},
+    pdfdisplaydoctitle = true
+  }%
+
+\noindent
+\roundedheaderbox{headerbg}{
+  \color{white} %
+  \begin{center} %
+    \headerfirstnamestyle{ {{ basics.name.split(' ')[0] | latex_escape }} } %
+    \headerlastnamestyle{  {{ basics.name.split(' ')[1] | latex_escape }} }\\[2mm] %
+    \faEnvelope~\href{mailto:{{ basics.email | latex_escape }}}{{ basics.email | latex_escape }} %
+    \quad|\quad %
+    \faMapMarker~{{ basics.location.address | latex_escape }} %
+    \quad|\quad %
+    \faLink~\href{ {{ basics.url | latex_escape }} }{ {{ basics.url | latex_escape }} } %
+  \end{center} %
+}
+\endgroup
+\vspace{0mm} %
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Statement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{% if personal_statement %}
+\begin{cvpersonalstatement}
+  \item { {{ personal_statement | latex_escape }} }
+\end{cvpersonalstatement}
+{% endif %}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{% if work %}
+\cvsection{Experience}
+\begin{cventries}
+{%- for job in work %}
+    \cventry
+    { {{ job.position | latex_escape }} }
+    { {{ job.name | latex_escape }} }
+    {}
+    { {{ job.startDate | latex_escape | format_date }} – {{ job.endDate | latex_escape | format_date if job.endDate else 'Present' | latex_escape }} }
+    {\begin{cvitems}
+        {%- for highlight in job.highlights %}
+        \item { {{ highlight | latex_escape }} }
+        {%- endfor %}
+    \end{cvitems}}
+{%- endfor %}
+\end{cventries}
+{% endif %}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{% if education %}
+\cvsection{Education}
+\begin{cventries}
+{%- for edu in education %}
+    \cventry
+    { {{ edu.studyType | latex_escape }} in {{ edu.area | latex_escape }} }
+    { {{ edu.institution | latex_escape }} }
+    {}
+    {}
+    {Grade: {{ edu.score | latex_escape }}}
+{%- endfor %}
+\end{cventries}
+{% endif %}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{% if skills %}
+\cvsection{Skills}
+\vspace{0.5mm}  % match Stats/Awards
+\begin{cvskills}
+{%- for skill in skills %}
+  \cvskill{ {{ skill.name | latex_escape }} }{ {{ skill.keywords | join(', ') | latex_escape }} }
+{%- endfor %}
+\end{cvskills}
+{% endif %}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Achievements Statistics
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{% if achievements %}
+\cvsection{Stats}
+\vspace{0.5mm}
+\begin{cvachievements}
+\setlength{\itemsep}{0mm}
+{%- for ach in achievements %}
+  \item { {{ ach.text | markdown_to_latex | safe }}{% if ach.source %} \href{ {{ ach.source | latex_escape }} }{\scriptsize\color{lightgray}\faLink}{% endif %} }
+{%- endfor %}
+\end{cvachievements}
+{%- endif %}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Awards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{% if awards %}
+\cvsection{Awards}
+\vspace{0.5mm}
+\begin{cvachievements}
+\setlength{\itemsep}{0mm}
+{%- for award in awards %}
+  \item { \textbf{ {{ award.title   | latex_escape }} } - {{ award.summary | latex_escape }}{% if award.source %} \href{ {{ award.source | latex_escape }} }{\scriptsize\color{lightgray}\faLink}{% endif %} }
+{%- endfor %}
+\end{cvachievements}
+{% endif %}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{% if projects %}
+\cvsection{Projects}
+\vspace{0.5mm}
+\begin{cvachievements}
+  \setlength{\itemsep}{0mm}
+{%- for proj in projects %}
+  \item {\hspace{-5pt}
+    \textbf{ {{ proj.name | latex_escape }} } ({{ proj.stars | latex_escape }} \raisebox{0.5pt}{\scriptsize\faStar}) \href{ {{ proj.url | latex_escape }} }{\scriptsize\color{lightgray}\faLink} \hfill \href{https://github.com/{{ proj.github | latex_escape }}}{\hspace{1pt}\faGithub\ {{ proj.github | latex_escape }}}\\
+    {{ proj.description | latex_escape }}
+  }
+{%- endfor %}
+\end{cvachievements}
+{% endif %}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Footer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{5mm}
+\begin{center}
+    \tiny\color{lightgray}
+    Resume built with LaTeX, view source at
+    \href{https://github.com/lissy93/cv}{ github.com/lissy93/cv }.
+    Licensed under MIT (C)
+    \href{https://aliciasykes.com}{ {{ basics.name | latex_escape }} } {\the\year}
+\end{center}
+\ 
+\end{document}
