@@ -5,7 +5,7 @@
 <br />
 <i>A website (Svelte) and PDF (LaTeX) auto-built from jsonresume data</i>
 <br />
-<b>🌐 <a href="https://cv.aliciasykes.com/">cv.aliciasykes.com</a> | 📄 <a href="https://cv.mwakidenis.com/download"><code>mwakidenis-CV.pdf</code></a></b> <br />
+<b>🌐 <a href="https://cv.mwakiden.com/">https://mwakidenis.github.io/cv/mwakidenis-CV.pdf</a> | 📄 <a href="https://cv.mwakidenis.github.io/cv/mwakidenis-CV.pdf"><code>mwakidenis-CV.pdf</code></a></b> <br />
 </p>
 
 
