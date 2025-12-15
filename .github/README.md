@@ -153,7 +153,7 @@ No point in raising issues here. It works on my machine. Therefore I see no issu
 
 ```
 The MIT License (MIT)
-Copyright (c) Mwaki Denis <mwakidenis@gmail.com> 
+Copyright (c) Mwaki Denis <mwakidenice@gmail.com> 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal 
