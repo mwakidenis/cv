@@ -114,7 +114,7 @@ The source for the website version is located in [`web/`](/web)
 <p align="center"><a href="https://cv.mwakidenis.com"><img width="650" src="https://i.ibb.co/7NjgmHC/alicia-sykes-cv-mockup.png](https://github.com/mwakidenis/cv/blob/main/cv-main/.github/screenshots/screenshot-web.jpg)" /></a></p>
 
 <h3 align="center">PDF 📄</h3>
-<p align="center"><a href="[https://cv.mwakidenis.com"><img width="650" src="https://i.ibb.co/ycsHkjdF/screenshot-pdf.png?](https://github.com/mwakidenis/cv/blob/main/cv-main/.github/screenshots/screenshot-web.png)" /></a></p>
+<p align="center"><a href="[https://github.com/mwakidenis/cv/blob/main/cv-main/.github/screenshots/screenshot-web.png?]" /></a></p>
 
 ---
 
