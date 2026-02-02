@@ -6,12 +6,7 @@ const config = {
   preprocess: vitePreprocess(),
 
   kit: {
-    // Use Cloudflare adapter
-    adapter: adapter({
-      // Default options are fine for Pages
-    }),
-
-    // Optional: ensure paths are correct
+    adapter: adapter(),
     paths: {
       base: ''
     }
